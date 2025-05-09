@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Subham Kumar Ojha- Developer Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="main_page_style.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+  <div class="bg-animation" id="bg-animation"></div>
+
+  <nav>
+    <div style="font-weight:bold; color:var(--primary); font-size:1.3rem;">Subham Kumar Ojha</div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#tech-stack">Tech Stack</a>
+      <a href="#hackathons">Hackathons</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact-section">Contact</a>
+      <a href="#cv">CV</a>
+      <button class="toggle-mode" id="toggle-mode" title="Toggle dark/light mode">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+  </nav>
+
+  <div class="container">
+    <section class="hero">
+      <img src="yourphoto.png" alt="Profile Picture" class="profile-pic" id="profile-pic">
+      <div class="hero-title">
+        <h1>Subham</h1>
+        <p>Full Stack Developer | MERN | Open Source Enthusiast</p>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hi! I’m Subham, a first-year Information Technology student with a passion for full stack web development.
+        I specialize in the <b>MERN</b> stack and enjoy building solutions that tackle real-world problems. I'm always eager to 
+        learn new technologies, contribute to open source, and grow through hands-on experience.
+      </p>
+      <ul>
+        <li><strong>Education:</strong> B.Tech in Information Technology @ Netaji Subhash Engineering College (2024–2028)</li>
+        <li><strong>Interests:</strong> AI/ML, UI/UX design, Cloud technologies, DevOps</li>
+        <li><strong>Goals:</strong> Level up as a full stack dev, contribute to open source, and build impactful projects</li>
+      </ul>
+    </section>
+
+    <section id="tech-stack">
+      <h2>Tech Stack</h2>
+      <div class="tech-stack-list">
+        <div class="tech-item"><span class="tech-icon"><i class="fab fa-html5"></i></span><span class="tech-name">HTML5</span></div>
+        <div class="tech-item"><span class="tech-icon"><i class="fab fa-css3-alt"></i></span><span class="tech-name">CSS3</span></div>
+        <div class="tech-item"><span class="tech-icon"><i class="fab fa-bootstrap"></i></span><span class="tech-name">Bootstrap</span></div>
+        <div class="tech-item"><span class="tech-icon"><i class="fas fa-wind"></i></span><span class="tech-name">Tailwind</span></div>
+        <div class="tech-item"><span class="tech-icon"><i class="fab fa-js-square"></i></span><span class="tech-name">JavaScript</span></div>
+        <div class="tech-item"><span class="tech-icon"><i class="fab fa-node-js"></i></span><span class="tech-name">Node.js</span></div>
+        <div class="tech-item"><span class="tech-icon"><i class="fab fa-js-square"></i></span><span class="tech-name">Express.js</span></div>
+        <div class="tech-item"><span class="tech-icon"><i class="fas fa-database"></i></span><span class="tech-name">MongoDB</span></div>
+        <div class="tech-item"><span class="tech-icon"><i class="fas fa-database"></i></span><span class="tech-name">SQL</span></div>
+        <div class="tech-item"><span class="tech-icon"><i class="fab fa-react"></i></span><span class="tech-name">React.js</span></div>
+        <div class="tech-item"><span class="tech-icon"><i class="fab fa-git-alt"></i></span><span class="tech-name">Git</span></div>
+      </div>      
+    </section>
+
+    <section id="hackathons">
+      <h2>Hackathon Participations</h2>
+      <div class="hackathon-list">
+        <div class="hackathon-card">
+          <div class="hackathon-title">Hackfest @ IIT-Dhanbad</div>
+          <div class="hackathon-meta">Team Lead | April 2025</div>
+          <div>Developed a better and more efficient mailing system for Atom Mail.</div>
+        </div>
+        <div class="hackathon-card">
+          <div class="hackathon-title">Virtual Hack4Bengal</div>
+          <div class="hackathon-meta">Team Lead | April 2025</div>
+          <div>Built a website that will help track individual and family member's vaccination status and also prepare for travel.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+        <h2>Project Builds</h2>
+        <div class="project-section">
+          <h3 style="color:var(--secondary);">Individual Projects</h3>
+          <div id="coming-soon" style="font-size:1.2rem; font-weight:bold; margin:32px 0; color:var(--gray);"></div>
+        </div>
+        <div class="project-section">
+          <h3 style="color:var(--secondary);">Team Projects (<b>Team BrainRot</b>)</h3>
+          <div class="project-list">
+            <div class="project-card">
+              <div class="project-title">Atom Mail System (Hackfest @ IIT-Dhanbad)</div>
+              <div class="project-meta">Team Lead | April 2025</div>
+              <div>Developed a better and more efficient mailing system for Atom Mail as part of Hackfest at IIT-Dhanbad.</div>
+            </div>
+            <div class="project-card">
+              <div class="project-title">VaxTrak (Virtual Hack4Bengal)</div>
+              <div class="project-meta">Team Lead | April 2025</div>
+              <div>Built a website to help track individual and family member vaccination status and assist with travel preparation during Virtual Hack4Bengal.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+    <div style="text-align:center;" id="cv">
+      <a href="cv.html" class="btn">
+        <i class="fas fa-file-alt"></i> View & Download CV
+      </a>
+    </div>
+
+    <section id="contact-section">
+        <div class="contact-form" style="text-align:center; width:100%;">
+        <h2>Contact Me</h2>
+        <p>You can reach me anytime via my social media profiles:</p>
+        <div class="social-icons" style="justify-content:center; gap:32px; margin-top:24px;">
+            <a href="https://instagram.com/_subhK_" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/_subhK_" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/SubhamKojha" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/subham-kumar-ojha-098b95321" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p style="margin-top:20px; color:var(--gray);">Or email me at <a href="mailto:your@email.com" style="color:var(--primary); text-decoration:underline;">ojhas6667@email.com</a></p>
+        </div>
+  
+      
+        <div class="computer-illustration">
+            <svg width="200" height="160" viewBox="0 0 200 160" fill="none">
+            <rect x="30" y="30" width="140" height="80" rx="10" fill="#23272e" stroke="#00e1ff" stroke-width="3"/>
+            <rect x="50" y="45" width="100" height="50" rx="7" fill="#181a1b" />
+            <rect x="60" y="55" width="80" height="30" rx="5" fill="#23272e" />
+            <rect x="80" y="120" width="40" height="10" rx="4" fill="#23272e" />
+            <rect x="70" y="135" width="60" height="8" rx="4" fill="#23272e" />
+            <circle cx="100" cy="115" r="4" fill="#00e1ff" />
+            
+            <text x="100" y="75" font-size="22" text-anchor="middle" fill="#00e1ff" font-family="monospace">&lt;/&gt;</text>
+            </svg>
+        </div>
+    </section>
+
+  <footer>
+    Made with &#x2764 by Subham
+  </footer>
+
+  <script src="main_page_animation.js"></script>
+
+</body>
+</html>

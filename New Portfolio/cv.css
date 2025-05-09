@@ -1,0 +1,40 @@
+
+    body { 
+        background: #121212;
+        color: #fff;
+        font-family: sans-serif; 
+        text-align: center; 
+        margin: 0; 
+        padding: 0;
+    }
+
+    .cv-container { 
+        max-width: 900px; 
+        margin: 40px auto; 
+        padding: 20px;
+    }
+
+    .btn { 
+        display: inline-block; 
+        padding: 12px 30px; 
+        background: linear-gradient(45deg,#00e1ff,#7928ca); 
+        color: white; 
+        border-radius: 30px; 
+        font-weight: bold; 
+        border: none; 
+        cursor: pointer; 
+        text-decoration: none; 
+        margin: 25px 0;
+    }
+
+    .btn:hover { 
+        background: linear-gradient(45deg,#7928ca,#ff2d75);
+    }
+
+    iframe { 
+        width: 100%; 
+        height: 700px; 
+        border: none; 
+        border-radius: 10px; 
+        background: #fff;
+    }
